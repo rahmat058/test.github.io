@@ -1,0 +1,2712 @@
+
+/*
+*******************************************
+*******************************************
+
+Template Name: Fina || Business & Finance HTML Template
+Author: Hassan Rasu
+Version: 1.0
+Template By: Themescare
+
+* This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+
+This files contents are outlined below >>>>
+
+*** SEARCH EACH SECTION AS IT COMMENTS, YOU WILL GET THE RIGHT SECTION.
+
+*******************************************
+*******************************************
+
+==== CSS INDEX
+
+01 - IMPORTED CSS
+02 - DEFAULT CSS
+03 - PAGINATION CSS
+04 - BREADCROMB CSS
+05 - REPONSIVE MENU CSS
+06 - PRELOADER CSS
+07 - BTN TO TOP CSS
+08 - HEADER CSS
+09 - MAIN SLIDER CSS
+10 - SERVICE AREA CSS
+11 - QUOTES AREA CSS
+12 - CORE SERVICE CSS
+13 - CHOOSE US AREA CSS
+14 - PROJECT AREA CSS
+15 - VIDEO AREA CSS
+16 - TESTIMONIAL AREA CSS
+17 - BLOG AREA CSS
+18 - FOOTER AREA CSS
+19 - ABOUT PAGE CSS
+20 - BRAND SLIDER CSS
+21 - COMPANY HISTORY PAGE CSS
+22 - TEAM MEMBER PAGE CSS
+23 - PARTNERS PAGE CSS
+24 - SERVICE DETAILS ONE CSS
+25 - SERVICE DETAILS TWO CSS
+26 - PROJECT PAGE CSS
+27 - PROJECT DETAILS PAGE CSS
+28 - BLOG LIST PAGE CSS
+29 - BLOG SIDEBAR CSS
+30 - BLOG SINGLE PAGE CSS
+31 - NOTFOUND PAGE CSS
+32 - FAQS PAGE CSS
+33 - PRICING PAGE CSS
+34 - CONTACT PAGE CSS
+
+*/
+
+
+
+/*================================================
+01 - IMPORTED CSS
+==================================================*/
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+/*================================================
+02 - DEFAULT CSS
+==================================================*/ 
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #333;
+    font-weight: 400
+}
+html,body { 
+    height: 100%;
+}
+img {
+    max-width: 100%;
+    height: auto
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+.fina-btn{
+    background: #18ba60 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.fina-btn:hover{
+    background: #2d4358 none repeat scroll 0 0;
+    color: #fff
+}
+a{
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    color: inherit
+}
+a:focus {
+    text-decoration: none;
+    outline: medium none;
+    color: inherit
+}
+a:hover {
+    color: inherit;
+    text-decoration: none;
+    color: inherit
+}
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+.section_100 {
+    padding: 100px 0;
+}
+.section_50 {
+    padding: 50px 0;
+}
+.section_15{
+    padding: 15px 0
+}
+.section_25{
+    padding: 25px 0
+}
+.pad-right{
+    padding-right: 0
+}
+.section_t_100{
+    padding-top: 100px
+}
+.section_b_100{
+    padding-bottom: 100px
+}
+.section_t_70{
+    padding-top: 70px
+}
+.section_b_70{
+    padding-bottom: 70px
+}
+.section_t_50{
+    padding-top: 50px
+}
+.fina-site-heading {
+    margin-bottom: 10px;
+}
+.fina-site-heading > h2{
+    color: #000;
+    display: inline-block;
+    font-family: "Merriweather",serif;
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.fina-site-heading span {
+    color: #18ba60;
+}
+.title-line-one {
+    background: #000 none repeat scroll 0 0;
+    height: 3px;
+    width: 15%;
+}
+.title-line-two {
+    background: #18ba60 none repeat scroll 0 0;
+    height: 3px;
+    margin-top: 5px;
+    width: 22%;
+}
+
+/*================================================
+03 - PAGINATION CSS
+==================================================*/ 
+
+.pagination {
+    margin: 50px 0 0;
+}
+.pagination-box {
+    text-align: center;
+}
+.pagination a {
+    color: #555 !important;
+    border: 1px solid #18ba60  !important
+}
+.pagination .active > a, .pagination a:hover {
+    background: #18ba60  none repeat scroll 0 0 !important; 
+    color: #fff !important
+}
+
+
+/*================================================
+04 - BREADCROMB CSS
+==================================================*/ 
+.fina-breadcromb-area {
+    background: rgba(0, 0, 0, 0) url("../img/breadcromb.jpg") no-repeat fixed 0 0 / cover ;
+    color: #fff
+}
+.breadcromb-left > h3 {
+    color: #fff;
+    font-family: "Merriweather",serif;
+    font-size: 19px;
+    font-style: italic;
+}
+.breadcromb-left h2 {
+    font-family: "Merriweather",serif;
+    font-size: 34px;
+    margin-top: 15px;
+    text-transform: capitalize
+}
+.breadcromb-right {
+    margin: 22px 0;
+    text-align: right;
+}
+.breadcromb-right li {
+    display: inline-block;
+    font-family: "Merriweather",serif;
+    margin: 0 4px;
+    text-transform: capitalize;
+}
+
+/*================================================
+05 - REPONSIVE MENU CSS
+==================================================*/ 
+.fina-responsive-menu{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+}
+.slicknav_nav a{
+    font-size: 16px;
+    margin: 0;
+    text-transform: capitalize;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    color: #000
+}
+.slicknav_menu {
+    background: transparent;
+}
+.slicknav_menutxt {
+    display: none !important;
+}
+.slicknav_arrow {
+    float: right;
+    color: #000
+}
+.slicknav_nav a:hover{
+    border-radius: 0;
+}
+.slicknav_nav .slicknav_row:hover{
+    border-radius: 0
+}
+.slicknav_nav a:hover, .slicknav_nav .slicknav_row:hover {
+    background: #18ba60  none repeat scroll 0 0;
+    color: #fff
+}
+.slicknav_nav li {
+    border-bottom: 1px solid #aaa;
+}
+.slicknav_nav li:last-child{
+    border-bottom: 0px solid #aaa
+}
+.slicknav_nav {
+    background: #fff none repeat scroll 0 0;
+    border-top: 1px solid #18ba60  ;
+}
+.slicknav_btn{
+    margin-bottom: 15px;
+    margin-right: 20px;
+    background-color: transparent !important;
+    line-height: 0;
+    margin-top: 20px
+}
+.slicknav_menu .slicknav_icon {
+    float: none !important;
+    margin: 0
+}
+.slicknav_icon-bar {
+    height: 3px !important;
+    margin: 5px 0;
+    width: 30px !important;
+}
+.slicknav_menu .slicknav_icon-bar {
+    background-color: #333 ;
+}
+
+/*================================================
+06 - PRELOADER CSS
+==================================================*/
+.animationload {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+    background-color: #fff ; 
+}
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/ttt-52x52.png");
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+/*================================================
+07 - BTN TO TOP CSS
+==================================================*/
+
+.btntoTop:before {
+    color: #fff;
+    content: "";
+    display: inline-block;
+    font: 20px "FontAwesome";
+    vertical-align: middle;
+}
+.btntoTop {
+    background-color: #2c3e50;
+    border: 2px solid #2c3e50;
+    border-radius: 2px;
+    bottom: 30px;
+    cursor: pointer;
+    height: 44px;
+    line-height: 36px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: fixed;
+    right: 30px;
+    text-align: center;
+    -webkit-transition: opacity 0.4s ease 0s;
+    transition: opacity 0.4s ease 0s;
+    width: 44px;
+    z-index: 999;
+}
+.btntoTop.active {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s
+}
+.btntoTop.active:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 2px solid #18ba60 ;
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+.btntoTop.active.btntoTop:hover:before {
+    color: #18ba60 ;
+}
+
+/*================================================
+08 - HEADER CSS
+==================================================*/ 
+
+.fina-logo-menu-area{
+    position: relative
+}
+.fina-logo-menu-area:before {
+    border-color: #8FDD3C transparent;
+    border-style: solid;
+    border-width: 43px 46px 0;
+    content: "";
+    left: -25px;
+    position: absolute;
+    top: 23px;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+}
+.fina-logo-menu-area:after {
+    border-color: #8FDD3C transparent;
+    border-style: solid;
+    border-width: 43px 46px 0;
+    content: "";
+    right: -22px;
+    position: absolute;
+    top: 23px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+.header-top-area {
+    background: #3b526b none repeat scroll 0 0;
+    color: #fff;
+}
+.header-top-left p i {
+    color: #18ba60;
+    font-size: 17px;
+    margin-right: 3px;
+}
+.header-top-left > p {
+    display: inline-block;
+    margin-right: 10px;
+}
+.header-top-right {
+    text-align: right;
+}   
+.top-social > li {
+    display: inline-block;
+}
+ul.top-social > li > a:before {
+    border-color: transparent rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.2) transparent;
+    border-style: solid;
+    border-width: 20px 5px;
+    right: 100%;
+}
+ul.top-social > li > a:before, ul.top-social > li > a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    -webkit-transition: border-color 0.4s ease-in-out 0s;
+    transition: border-color 0.4s ease-in-out 0s;
+}
+ul.top-social > li > a:after {
+    border-color: rgba(255, 255, 255, 0.2) transparent transparent rgba(255, 255, 255, 0.2);
+    border-style: solid;
+    border-width: 20px 5px;
+    left: 100%;
+}
+ul.top-social > li > a {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 5.5px;
+    margin-right: 5.5px;
+    position: relative;
+    -webkit-transition: background-color 0.4s ease-in-out 0s;
+    transition: background-color 0.4s ease-in-out 0s;
+    width: 30px;
+    text-align: center
+}
+.header-top-left {
+    padding: 7px 0;
+}
+ul.top-social > li > a.facebook:hover:before {
+    border-bottom: 20px solid #3c599b;
+    border-right: 5px solid #3c599b;
+    right: 100%;
+}
+ul.top-social > li > a.facebook:hover:after {
+    border-left: 5px solid #3c599b;
+    border-top: 20px solid #3c599b;
+    left: 100%;
+}
+ul.top-social > li > a.facebook:hover{
+    background: #3c599b none repeat scroll 0 0
+}
+ul.top-social > li > a.twitter:hover:before {
+    border-bottom: 20px solid #1B95E0;
+    border-right: 5px solid #1B95E0;
+    right: 100%;
+}
+ul.top-social > li > a.twitter:hover:after {
+    border-left: 5px solid #1B95E0;
+    border-top: 20px solid #1B95E0;
+    left: 100%;
+}
+ul.top-social > li > a.twitter:hover{
+    background: #1B95E0 none repeat scroll 0 0
+}
+ul.top-social > li > a.google:hover:before {
+    border-bottom: 20px solid #EA4335;
+    border-right: 5px solid #EA4335;
+    right: 100%;
+}
+ul.top-social > li > a.google:hover:after {
+    border-left: 5px solid #EA4335;
+    border-top: 20px solid #EA4335;
+    left: 100%;
+}
+ul.top-social > li > a.google:hover{
+    background: #EA4335 none repeat scroll 0 0
+}
+ul.top-social > li > a.linkedin:hover:before {
+    border-bottom: 20px solid #0077b5;
+    border-right: 5px solid #0077b5;
+    right: 100%;
+}
+ul.top-social > li > a.linkedin:hover:after {
+    border-left: 5px solid #0077b5;
+    border-top: 20px solid #0077b5;
+    left: 100%;
+}
+ul.top-social > li > a.linkedin:hover{
+    background: #0077b5 none repeat scroll 0 0
+}
+ul.top-social > li > a.youtube:hover:before {
+    border-bottom: 20px solid #c4302b;
+    border-right: 5px solid #c4302b;
+    right: 100%;
+}
+ul.top-social > li > a.youtube:hover:after {
+    border-left: 5px solid #c4302b;
+    border-top: 20px solid #c4302b;
+    left: 100%;
+}
+ul.top-social > li > a.youtube:hover{
+    background: #c4302b none repeat scroll 0 0
+}
+ul.top-social > li > a.skype:hover:before {
+    border-bottom: 20px solid #00A7E5;
+    border-right: 5px solid #00A7E5;
+    right: 100%;
+}
+ul.top-social > li > a.skype:hover:after {
+    border-left: 5px solid #00A7E5;
+    border-top: 20px solid #00A7E5;
+    left: 100%;
+}
+ul.top-social > li > a.skype:hover{
+    background: #00A7E5 none repeat scroll 0 0
+}
+.mainmenu ul {
+    text-align: right;
+}
+.mainmenu ul li {
+    display: inline-block;
+    position: relative;
+}
+.mainmenu ul li a {
+    color: #333;
+    display: block;
+    font-size: 16px;
+    padding: 31px 15px;
+    text-transform: capitalize;
+    font-weight: 600
+}
+.mainmenu ul .current-page-item > a, .mainmenu ul li a:hover {
+    color: #18ba60;
+}
+.mainmenu ul li ul {
+    background: #fff none repeat scroll 0 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    text-align: left;
+    top: 200%;
+    visibility: hidden;
+    width: 220px;
+    z-index: -99;
+    box-shadow: 0px 0px 4px rgba(170, 170, 170, 0.69);
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    
+}
+.mainmenu ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    z-index: 99;
+    top: 100%
+}
+.mainmenu ul li ul li {
+    border-bottom: 1px solid #ededed;
+    display: block;
+}
+.mainmenu ul li ul li:last-child{
+    border-bottom: 0px solid #ededed
+}
+.mainmenu ul li ul li a {
+    display: block;
+    padding: 10px;
+}
+.mainmenu ul li ul li a:hover{
+    background: #18ba60 none repeat scroll 0 0;
+    color: #fff
+}
+.mainmenu ul li:hover > a {
+    color: #18ba60;
+}
+.search-panel {
+    color: #000;
+    display: block;
+    float: none;
+    position: relative;
+    text-align: center;
+    top: 10px;
+    width: 100%;
+}
+.search-icon {
+    font-size: 20px;
+    line-height: 70px;
+}
+.fina-search-box {
+    background: #fff none repeat scroll 0 0;
+    border-top: 3px solid #18ba60;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    padding: 30px;
+    position: absolute;
+    right: -15px;
+    text-align: center;
+    top: 150px;
+    -webkit-transition: all 0.4s ease 0.4s;
+    transition: all 0.4s ease 0.4s;
+    visibility: hidden;
+    width: 450px;
+    z-index: -99;
+}
+.fina-search-box > form {
+    height: 50px;
+    position: relative;
+}
+.fina-search-box input {
+    border: 1px solid #ddd;
+    height: 100%;
+    left: 0;
+    padding: 5px 100px 5px 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}   
+.fina-search-box button {
+    background: #18ba60 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    height: 100%;
+    padding: 10px 30px;
+    position: absolute;
+    right: 0;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+.fina-search-box button:hover {
+    background: #2d4358  none repeat scroll 0 0;
+}
+.search-panel:hover .fina-search-box {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    position: absolute;
+    right: -15px;
+    top: 75px;
+    visibility: visible;
+    width: 450px;
+    z-index: 99;
+}
+.logo {
+    display: inline-block;
+    margin: 14px 0;
+}
+
+
+/*================================================
+09 - MAIN SLIDER CSS
+==================================================*/
+
+.slide-item-1 {
+    background: rgba(0, 0, 0, 0.3) url("../img/slide3.jpg") repeat scroll 0 0;
+}
+.slide-item-2 {
+    background: rgba(0, 0, 0, 0.9) url("../img/slide4.jpg") repeat scroll 0 0;
+}
+.slide-item-3 {
+    background: rgba(0, 0, 0, 0.3) url("../img/slide5.jpg") repeat scroll 0 0;
+}
+.fina-main-caption{
+    background: rgba(28, 28, 28, 0.41) none repeat scroll 0 0
+}
+.fina-main-slide {
+    background-color: #eee;
+    background-position: center center ;
+    background-size: cover ;
+    height: 560px ;
+}
+.fina-main-caption{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.fina-caption-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.fina-main-caption h4 {
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400
+}
+.fina-main-caption h2 {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400
+}
+.fina-main-caption p {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+.fina-main-caption a {
+    margin: 0 5px;
+}
+.fina-slide .owl-nav > .owl-prev{
+    visibility: hidden;
+    -webkit-transition: all 0.3s cubic-bezier(.83, .8, .11, .64) 0s;
+    transition: all 0.3s cubic-bezier(.83, .8, .11, .64) 0s;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.fina-slide:hover .owl-nav > .owl-prev{
+    visibility: visible;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.fina-slide .owl-nav > .owl-next{
+    visibility: hidden;
+    -webkit-transition: all 0.3s cubic-bezier(.83, .8, .11, .64) 0s;
+    transition: all 0.3s cubic-bezier(.83, .8, .11, .64) 0s;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    
+}
+.fina-slide:hover .owl-nav > .owl-next{
+    visibility: visible;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.fina-slide .owl-prev {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 0;
+    color: #333;
+    font-size: 30px;
+    height: 80px !important;
+    line-height: 70px;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    width: 45px;
+    left: 0
+}
+.fina-slide .owl-next {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 0;
+    color: #333;
+    font-size: 30px;
+    height: 80px !important;
+    line-height: 70px;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    width: 45px;
+    right: 0
+}
+.fina-slide .owl-prev:hover, .fina-slide .owl-next:hover{
+    background: #18ba60  none repeat scroll 0 0;
+    color: #fff;
+}
+
+
+/*================================================
+10 - SERVICE AREA CSS
+==================================================*/
+
+.single-service {
+    margin-bottom: 30px;
+}
+.single-service-text > h3 {
+    color: #303030;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.single-service-text h3 > a:hover{
+    color: #18ba60
+}
+.single-service-image img {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition-duration: 600ms;
+            transition-duration: 600ms;
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+    width: 100%;
+}
+.single-service-image {
+    overflow: hidden;
+    position: relative;
+}
+.single-service-image:hover img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+/*================================================
+11 - QUOTES AREA CSS
+==================================================*/
+
+.fina-quotes-area {
+    background: #18ba60 none repeat scroll 0 0;
+    color: #fff;
+}
+.quotes-left > h2 {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.quotes-left > p {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+.quotes-right {
+    text-align: right;
+}
+.quotes-right a {
+    background: #fff none repeat scroll 0 0;
+    color: #303030;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 4px
+}
+.quotes-right a:hover{
+    background: #2d4358 none repeat scroll 0 0;
+    color: #fff
+}
+
+/*================================================
+12 - CORE SERVICE CSS
+==================================================*/
+
+.single-core-service {
+    margin-top: 50px;
+}
+.single-core-service > img {
+    float: left;
+}
+.core-text {
+    margin-left: 70px;
+}
+.core-text > h3 {
+    color: #303030;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.core-text > h3 > a:hover{
+    color: #18ba60
+}
+
+/*================================================
+13 - CHOOSE US AREA CSS
+==================================================*/
+
+.fina-choose-us-area {
+    background: #f9f9f9 none repeat scroll 0 0;
+    position: relative;
+}
+.single-choose-list {
+    background: #fff none repeat scroll 0 0;
+    margin-top: 30px;
+    padding: 15px;
+}
+.choose-list-img {
+    float: left;
+    margin-right: 15px;
+}
+.choose-right > img {
+    max-width: 355px
+}   
+.choose-list-txt {
+    overflow: hidden;
+}
+.choose-list-txt > h3 {
+    font-size: 21px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/*================================================
+14 - PROJECT AREA CSS
+==================================================*/
+.project-btn {
+    display: block;
+    margin: 15px 0;
+    text-align: left;
+}
+.project-btn > a {
+    border-left: 4px solid #f9f9f9;
+    color: #303030;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 5px 10px;
+    padding: 5px 15px;
+    text-transform: capitalize;
+}
+.project-btn > a.current {
+    cursor: default;
+}
+.project-btn > a:hover, .project-btn > a.current{
+    border-left: 4px solid #18ba60;
+    color: #18ba60;
+    background: #fff none repeat scroll 0 0;
+}
+.element-item {
+    float: left;
+    margin: 30px 0 0;
+    padding: 0 15px;
+    width: 50%;
+}
+.project-single-item{
+    overflow: hidden;
+    position: relative;
+}
+.img-responsive{
+    width: 100%
+}
+.project-single-item img {
+    width: 100%;
+}
+.project-slogan {
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.project-slogan > h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.project-caption {
+    background-color: rgba(2, 0, 0, 0.74);
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    -webkit-transform: translate3d(0px, 100%, 0px);
+            transform: translate3d(0px, 100%, 0px);
+    transition: transform 0.35s ease 0s, -webkit-transform 0.35s ease 0s;
+    width: 100%;
+}
+.project-caption > h3 {
+    color: #eee;
+    font-family: "PT Sans",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.project-single-item:hover .project-caption {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+}
+
+/*================================================
+15 - VIDEO AREA CSS
+==================================================*/
+.fina-video-area:before {
+    background-image: url("../img/blog-1.jpg");
+    background-position: center center;
+    background-size: cover;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 50%;
+}
+.fina-video-area {
+    background-color: #f8f8f8;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.fina-abt-overlay {
+    background: rgba(0, 0, 0, 0.58) none repeat scroll 0 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 50%;
+}
+.youtube-text {
+    padding: 130px 0;
+    text-align: center;
+}
+.popup-youtube > i {
+    background: rgba(0, 0, 0, 0.54) none repeat scroll 0 0;
+    border: 6px solid rgba(175, 175, 175, 0.8);
+    border-radius: 50%;
+    color: #18ba60;
+    display: inline-block;
+    font-size: 30px;
+    height: 75px;
+    line-height: 65px;
+    margin-top: 30px;
+    padding-left: 10px;
+    text-align: center;
+    width: 75px;
+    z-index: 99;
+}
+.no-pad-right{
+    padding-right: 0
+}
+.fina-caallback-wrap {
+    float: right;
+    padding: 0 50px;
+    width: 85%;
+}
+.fina-caallback-wrap > h3{
+    color: #000;
+    display: inline-block;
+    font-family: "Merriweather",serif;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.fina-caallback-wrap form p, .fina-caallback-wrap form .single-search-property {
+    margin-top: 10px;
+}
+.fina-caallback-wrap form input {
+    border: 1px solid #ddd;
+    height: 45px;
+    padding: 5px 10px;
+    width: 100%;
+}
+.fina-caallback-wrap form textarea {
+    border: 1px solid #ddd;
+    height: 110px;
+    padding: 5px 10px;
+    width: 100%;
+}
+.zelect.open .dropdown {
+    background: #fff none repeat scroll 0 0;
+    color: #333;
+    padding: 15px;
+    top: 10px;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0px 0px 2px rgba(10, 10, 10, 0.6)
+}
+input.zearch {
+    border: 1px solid #444;
+    height: 40px;
+    padding: 5px 10px;
+    width: 100%;
+}
+.zearch-container:after {
+    color: #999;
+    content: "";
+    font-family: FontAwesome;
+    position: absolute;
+    right: 25px;
+    top: 21px;
+}
+.intro .zelect {
+    cursor: pointer;
+}
+.intro .dropdown ol {
+    max-height: 100px;
+    overflow-y: scroll;
+    padding: 0;
+}
+.zelect ol li {
+    padding: 5px;
+    display: block;
+    -webkit-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s
+}
+.zelect ol li:hover{
+    background: rgba(24, 186, 96, 0.8) none repeat scroll 0 0;
+    color: #fff
+}
+.zelected{
+    color: #8E909D;
+    padding-left: 10px
+}
+.intro {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    height: 45px;
+    padding: 8px 0;
+    width: 100%;
+}
+.fina-caallback-wrap form button {
+    background: #18ba60 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    border: medium none;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s
+}
+.fina-caallback-wrap form button:hover{
+    background: #2d4358 none repeat scroll 0 0
+}
+
+/*================================================
+16 - TESTIMONIAL AREA CSS
+==================================================*/
+.fina-testimonial-area .fina-site-heading{
+    margin-bottom: 30px
+}
+.testimonial-img {
+    border-right: 1px solid #e1e7ee;
+}
+.testimonial-img > img {
+    border-radius: 50%;
+    height: 115px;
+    margin: 0 auto;
+    width: 115px !important;
+}
+.textimonial-text{
+    margin-top: 0
+}
+.textimonial-text > p {
+    color: #465053;
+    font-weight: 400;
+}
+.client-name {
+    color: #e9563d !important;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 17px
+}
+.testimonial-rating li {
+    display: inline-block;
+}
+.testimonial-rating li i{
+    color: #FAC113
+}
+.testimonial-rating > p {
+    display: inline-block;
+}
+.testimonial-rating > ul {
+    display: inline-block;
+    margin-left: 10px;
+}
+.testimonial-rating > p {
+    font-weight: 600;
+}
+.testimonial-img > i {
+    background: #18ba60 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    right: 26%;
+    text-align: center;
+    top: 0;
+    width: 40px;
+}
+.textimonial-text > i {
+    color: #18ba60;
+    font-size: 20px;
+    position: relative;
+    right: -95%;
+}
+.owl-dots {
+    margin-top: 20px;
+    text-align: center;
+}
+.owl-dots .owl-dot {
+    display: inline-block;
+}
+.owl-theme .owl-dots .owl-dot span {
+    -webkit-backface-visibility: visible;
+            backface-visibility: visible;
+    background: #d9d9d9 none repeat scroll 0 0;
+    display: block;
+    height: 10px;
+    margin: 5px 7px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 10px;
+}
+.owl-dots .owl-dot.active span, .owl-dots .owl-dot:hover span {
+    background: #18ba60 none repeat scroll 0 0;
+}
+
+/*================================================
+17 - BLOG AREA CSS
+==================================================*/
+
+.fina-blog-area {
+    background: #f0f0f0 none repeat scroll 0 0;
+}
+.single-news-default {
+    margin-top: 30px;
+}
+.fina-default-news-text {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #eee;
+  padding: 20px;
+}
+.fina-default-news-text > h3 {
+    color: #333;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.fina-default-news-text > h3 > a:hover{
+    color: #18ba60
+}
+.fina-post-share-comment {
+    border-top: 1px solid #eee;
+    margin-top: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+.fina-post-share-comment > p {
+    color: #777;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 11px;
+}
+.fina-post-share-comment p i {
+    color: #18ba60;
+    font-size: 18px;
+}
+.fina-post-share-comment > p a:hover{
+    color: #18ba60;
+}
+.fina-default-news-img img {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition-duration: 600ms;
+            transition-duration: 600ms;
+    -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+    width: 100%;
+}
+.fina-default-news-img {
+    overflow: hidden;
+    position: relative;
+}
+.fina-default-news-img:hover img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+/*================================================
+18 - FOOTER AREA CSS
+==================================================*/
+
+.fina-footer-top-area {
+    background: #252525 none repeat scroll 0 0;
+    color: #999;
+}
+.single-footer{
+    margin: 0
+}
+.single-footer img {
+    margin-bottom: 15px;
+}
+.footer-social-icon {
+    margin-top: 30px;
+}
+.footer-social{
+    margin-top: 20px
+}
+.footer-social > li{
+    display: inline-block;
+}
+.footer-social li a{
+    background-color: #333333;
+    border-radius: 50%;
+    color: #777;
+    display: block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 40px;
+}
+.fb:hover {
+    background: #4b6ea9 none repeat scroll 0 0;
+    color: #fff;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg)
+}
+.twitter:hover {
+    background: #65bbf2 none repeat scroll 0 0;
+    color: #fff;
+        -webkit-transform: rotate(360deg);
+            transform: rotate(360deg)
+}
+.gp:hover {
+    background: #dd4d41 none repeat scroll 0 0;
+    color: #fff;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg)
+}
+.linkedin:hover {
+    background: #0075b5 none repeat scroll 0 0;
+    color: #fff;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg)
+}
+.single-footer > h3, .footer-social-icon > h3 {
+    color: #eee;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.footer-widget > li {
+    border-bottom: 1px dashed #999;
+}
+.footer-widget > li:last-child{
+    border-bottom: 0px dashed #999;
+}
+.footer-widget a {
+    display: block;
+    padding: 5px 0;
+    text-transform: capitalize
+}
+.footer-widget a:hover{
+    color: #fff;
+    padding-left: 5px
+}
+.contact-details i {
+    color: #fff ;
+    margin-right: 10px;
+}
+.contact-details {
+    margin: 6px 0;
+}
+.insta-post {
+    display: inline-block;
+    height: 65px;
+    margin: 2px;
+    width: 65px;
+    position: relative
+}
+.overlay-insta {
+    -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+    background: rgba(23, 23, 23, 0.8) none repeat scroll 0 0;
+    cursor: pointer;
+    height: 100%;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    top: 0;
+    -webkit-transform: perspective(500px) rotateY(-90deg);
+          transform: perspective(500px) rotateY(-90deg);
+    -webkit-transition: all 0.4s linear 0s;
+    transition: all 0.4s linear 0s;
+    visibility: hidden;
+    width: 100%;
+}   
+.insta-post:hover .overlay-insta{
+    -webkit-backface-visibility: visible;
+        backface-visibility: visible;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform: perspective(500px) rotateY(0deg);
+        transform: perspective(500px) rotateY(0deg);
+    visibility: visible;
+}
+.fina-footer-bottom-area {
+    background: #000 none repeat scroll 0 0;
+    color: #fff;
+}
+.copyright-left {
+    text-align: left;
+    font-weight: 400
+}
+.copyright-right{
+    text-align: right;
+    font-weight: 400
+}
+.copyright-right > p > i{
+    color: #18ba60 ;
+    margin: 0px 5px;
+    font-weight: 600
+}
+.copyright-right > p {
+    text-transform: capitalize;
+}
+.copyright-right > p > span {
+    color: #18ba60;
+    font-family: "Merriweather",serif;
+    font-weight: 700;
+    margin: 0 5px;
+    text-transform: capitalize;
+}
+
+/*================================================
+19 - ABOUT PAGE CSS
+==================================================*/
+
+.about-section-one-right > h3{
+    color: #354a6b;
+    font-family: "Playfair Display",serif;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+.about-section-one-right > p {
+    margin: 10px 0 0;
+    line-height: 27px;
+    font-size: 20px;
+    padding-left: 70px;
+
+}
+.fina-about-section-two  {
+    background: #ebf1f6 none repeat scroll 0 0;
+}
+.about-section-two-left > h3, .about-section-two-right > h3 {
+    color: #303030;
+    display: inline-block;
+    font-family: "Merriweather",serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+#aboutpagebar, .shop-tab{
+    margin-top: 40px
+}
+#singleshop li {
+    display: inline-block;
+    margin-right: 5px;
+}
+#singleshop .active > a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #18ba60 none repeat scroll 0 0;
+    border-color: currentcolor currentcolor currentcolor #212121;
+    -o-border-image: none;
+       border-image: none;
+    border-style: none none none solid;
+    border-width: medium medium medium 5px;
+    color: #fff;
+    font-weight: 700;
+}
+#singleshop a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #f9f9f9 none repeat scroll 0 0;
+    border-color: currentcolor currentcolor currentcolor #eee;
+    -o-border-image: none;
+       border-image: none;
+    border-radius: 0;
+    border-style: none none none solid;
+    border-width: medium medium medium 5px;
+    color: #333;
+    font-weight: 600;
+    margin: 0;
+    text-transform: capitalize;
+}
+.panel-body .fina-btn {
+    margin-top: 20px;
+}
+.panel-body.desc{
+    padding-bottom: 0
+}
+.abt-page-icon {
+    float: left;
+    margin-right: 15px;
+}
+.abt-page-icon i {
+    color: #18ba60;
+    font-size: 40px;
+}
+.abt-page-content {
+    overflow: hidden;
+}
+.abt-page-content > h3 {
+    color: #303030;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.single-abt-page-promo{
+    margin-bottom: 30px
+}
+
+/*================================================
+20 - BRAND SLIDER CSS
+==================================================*/
+
+.single-brand-item img {
+    opacity: 0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+.single-brand-item img:hover {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+/*================================================
+21 - COMPANY HISTORY PAGE CSS
+==================================================*/
+
+.fina-history-page{
+    background: #f9f9f9 none repeat scroll 0 0
+}
+.history-container:before {
+    border-color: #aaa;
+    border-style: solid;
+    border-width: 1px 0 0;
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.history-container{
+    position: relative
+}
+.border-bottom {
+    background-color: #18ba60 ;
+    border-radius: 50%;
+    content: "";
+    height: 20px;
+    left: 50%;
+    position: absolute;
+    top: -42px;
+    width: 20px;
+}
+.single-history-item {
+    margin-top: 30px;
+    position: relative;
+}
+.border-bottom > h3 {
+    position: absolute;
+    right: -13px;
+    top: -35px;
+    color: #303030;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.single-history {
+    text-align: center;
+}
+.history-container{
+    margin-top: 50px
+}
+.single-history > h3 {
+    color: #303030;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+/*================================================
+22 - TEAM MEMBER PAGE CSS
+==================================================*/
+
+.team-member-image img {
+    border-radius: 10px;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.team-member-overlay {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0px, rgba(58, 82, 106, 0.9) 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(58, 82, 106, 0.9) 100%) repeat scroll 0 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    bottom: 0;
+    height: 30%;
+    left: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.team-member-content {
+    color: #fff;
+    font-size: 20px;
+    left: 50%;
+    overflow: hidden;
+    padding: 50px;
+    position: absolute;
+    top: 70%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+.team-member-content i {
+    color: #fff;
+    font-size: 20px;
+    padding: 7px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.single-team-member:hover .team-member-overlay {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.team-member-info h4 {
+    color: #3b3b3b;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.team-member-image{
+    position: relative
+}
+.team-member-info {
+    margin-top: 20px;
+    text-align: center;
+}
+.team-member-info > p {
+    color: #777;
+    font-size: 15px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+.single-team-member {
+    margin-top: 30px;
+}
+
+/*================================================
+23 - PARTNERS PAGE CSS
+==================================================*/
+
+.single-partner-item {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    padding: 20px 0;
+}
+.partner-image img {
+    border: 1px solid #ddd;
+    width: 100%
+}
+.partner-info {
+    overflow: hidden;
+    width: 90%;
+}
+.single-partner-item:first-child {
+    padding-top: 0;
+}
+.partner-info > h3 {
+    color: #18ba60 ;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.partner-info > h3 > a:hover{
+    color: #303030
+}
+
+/*================================================
+24 - SERVICE DETAILS ONE CSS
+==================================================*/ 
+
+.fina-service-details-one{
+    background: #f0f0f0 none repeat scroll 0 0
+}
+.single-service-widget {
+    background: #fff none repeat scroll 0 0;
+    margin-bottom: 30px;
+}
+.single-service-widget:last-child {
+    margin-bottom: 0;
+}
+.single-service-widget li {
+    border: 1px solid #eee;
+}
+.single-service-widget a:hover, .single-service-widget ul li.active > a {
+    background: #18ba60  none repeat scroll 0 0;
+    border-left: 5px solid #000;
+    color: #fff;
+}
+.single-service-widget a {
+    border-left: 5px solid #fff;
+    color: #000;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+.single-service-widget ul li a i {
+    float: right;
+    font-size: 20px;
+    margin-top: 2px;
+}
+.broucher-item i {
+    background: #fff none repeat scroll 0 0;
+    color: #18ba60;
+    font-size: 20px;
+    height: 30px;
+    left: 14px;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    width: 30px;
+}
+.widget-title > h3 {
+    color: #000;
+    display: inline-block;
+    font-family: "Merriweather",serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.widget-title {
+    margin-bottom: 25px;
+}
+.title-line {
+    background: #18ba60 none repeat scroll 0 0;
+    height: 3px;
+    width: 100px;
+}
+.broucher-item {
+    margin: 10px 0;
+    position: relative;
+}
+.broucher-item > a {
+    background: #18ba60 none repeat scroll 0 0;
+    border-left: 0 none;
+    color: #fff;
+    padding-left: 60px;
+}
+.single-service-widget.brochures{
+    padding: 20px
+}
+.broucher-item > a:hover {
+    background: #18ba60 none repeat scroll 0 0;
+    color: #fff;
+    border-left: 0 none;
+}
+.broucher-item a span {
+    color: #fff;
+    float: right;
+    margin-top: 5px;
+}
+.single-service-widget.brochures p > a {
+    border: medium none;
+    color: #18ba60;
+    display: inline-block;
+    padding: 0;
+    text-transform: lowercase;
+}
+.single-service-widget.brochures p > a:hover{
+    color: #18ba60;
+    text-decoration: underline;
+    background: none
+}
+.single-service-content {
+    background: #fff none repeat scroll 0 0;
+    padding: 20px;
+}
+.audit-text > h3 {
+    color: #303030;
+    display: inline-block;
+    font-family: "Merriweather",serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.audit-chart > h3, .single-service-tab > h3 {
+    color: #303030;
+    display: inline-block;
+    font-family: "Merriweather",serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.audit-chart {
+    margin-top: 30px;
+}
+.tabs.single-service-tab {
+    margin-top: 30px;
+}
+#service_pro{
+    margin-top: 15px;
+    border: medium none;
+}
+.nav-tabs > li > a{
+    border: 0px
+}
+#service_pro a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #f9f9f9 none repeat scroll 0 0;
+    border-color: currentcolor currentcolor currentcolor #f9f9f9 ;
+    -o-border-image: none;
+       border-image: none;
+    border-radius: 0;
+    border-style: none none none solid;
+    border-width: medium medium medium 5px;
+    color: #333;
+    font-weight: 600;
+    margin: 0;
+    text-transform: capitalize;
+}
+#service_pro .active > a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #18ba60 none repeat scroll 0 0;
+    border-color: currentcolor currentcolor currentcolor #212121;
+    -o-border-image: none;
+       border-image: none;
+    border-style: none none none solid;
+    border-width: medium medium medium 5px;
+    color: #fff;
+    font-weight: 700;
+}
+#service_pro > li {
+    margin: 2px;
+}
+
+/*================================================
+25 - SERVICE DETAILS TWO CSS
+==================================================*/ 
+
+.progress-list li {
+    margin-bottom: 20px;
+}
+.progress-list li:last-child{
+    margin-bottom: 0
+}
+.progress-list p {
+    margin-bottom: 5px;
+}
+.progress-list li .bar {
+    position: relative;
+}
+.progress-left > img {
+    width: 100%;
+}
+.service-details-two-progress {
+    margin-top: 30px;
+}
+
+/*================================================
+26 - PROJECT PAGE CSS
+==================================================*/ 
+
+.project-page-filter{
+    text-align: center;
+    margin-top: 0
+}
+.project-page-filter > a{
+    display: inline-block;
+    border-left: 0px solid #fff
+}
+.project-page-filter > a:hover{
+    display: inline-block;
+    border-left: 0px solid #18ba60 !important
+}
+.project-page-filter > a.current{
+    border-left: 0px solid #18ba60 !important
+}
+
+/*================================================
+27 - PROJECT DETAILS PAGE CSS
+==================================================*/ 
+
+.project-details-left > h3 {
+    color: #303030;
+    display: inline-block;
+    font-family: "Merriweather",serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    margin-top: 20px
+}
+.project-details-left > p {
+    margin: 0 0 10px;
+}
+.project-details-left blockquote {
+    background: rgba(206, 255, 228, 0.54) none repeat scroll 0 0;
+    border-left: 0 solid #eee;
+    padding: 40px;
+    position: relative;
+    font-family: "Playfair Display",serif;
+    font-style: italic
+}   
+.project-details-left blockquote:before {
+    border-color: rgba(51, 204, 119, 0.78) transparent;
+    border-style: solid;
+    border-width: 60px 60px 0 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.project-details-left blockquote:after {
+    border-color: rgba(51, 204, 119, 0.78) transparent;
+    border-style: solid;
+    border-width: 0 0 60px 60px;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    right: 0;
+}
+.project-details-left ul li i {
+    color: #18ba60 ;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.project-details-left ul li{
+    margin-top: 10px;
+    font-size: 16px
+}
+.project-details-left > ul {
+    margin-top: 25px;
+}
+.project-details-left {
+    background: #fff none repeat scroll 0 0;
+    padding: 20px;
+}
+.single-pro-details-widget {
+    background: #fff none repeat scroll 0 0;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.single-pro-details-widget:last-child{
+    margin-bottom: 0px
+}
+.fina-project-page-details-area {
+    background: #f0f0f0 none repeat scroll 0 0;
+}
+.single-pro-details-widget span {
+    display: inline-block;
+    width: 30%;
+    font-weight: 700;
+}
+.single-pro-details-widget p {
+    color: #000;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 10px
+}
+.single-pro-details-widget > a {
+    background: #18ba60 none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px 0
+}
+.single-pro-details-widget > a:hover{
+    background: #2d4358 none repeat scroll 0 0
+}
+.single-pro-details-widget ul li i {
+    color: #18ba60;
+    float: left;
+    font-size: 18px;
+    line-height: 28px;
+    margin-right: 15px;
+    width: 20px
+}
+.single-pro-details-widget p {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+/*================================================
+28 - BLOG LIST PAGE CSS
+==================================================*/ 
+
+.single-blog-list-item > .row > .col-md-5{
+    padding-right: 0
+}
+.single-blog-list-item > .row > .col-md-7{
+    padding-left: 0
+}
+.single-blog-list-item .fina-post-share-comment{
+    margin-top: 40px;
+    text-align: left
+}
+.single-blog-list-item .fina-default-news-text > h3{
+    margin-bottom: 7px
+}
+.single-blog-list-item .fina-default-news-text{
+    border: 0px solid #eee
+}
+.single-blog-list-item {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 12px rgba(168, 168, 168, 0.61);
+    margin-top: 30px;
+}
+.single-blog-list-item:last-child{
+    margin-bottom: 0px
+}
+.fina-post-share-comment > a {
+    color: #333;
+    float: right;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 15px;
+    text-transform: capitalize;
+}
+.fina-post-share-comment > a:hover{
+    color: #18ba60 
+}
+.fina-post-share-comment a > i {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+/*================================================
+29 - BLOG SIDEBAR CSS
+==================================================*/ 
+
+.blog-sidebar-right {
+    margin-top: 30px;
+}
+.blog-single-widget {
+    background: #fff none repeat scroll 0 0;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.blog-single-widget:last-child{
+    margin-bottom: 0px
+}
+.blog-single-widget > form {
+    height: 40px;
+    position: relative;
+}
+.blog-single-widget input[type="search"] {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    height: 40px;
+    padding: 5px 60px 5px 10px;
+    width: 100%;
+    color: #333
+}
+.blog-single-widget form > button {
+    background: #18ba60 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 20%;
+}
+.blog-single-widget > h3 {
+    background: #242c42 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.blog-catagory li {
+    border-bottom: 2px solid #f0f0f0;
+}
+.blog-catagory li:last-child {
+    border-bottom: 0 solid #f0f0f0;
+}
+.blog-catagory li a {
+    color: #333;
+    display: block;
+    padding: 10px 0px;
+    text-transform: capitalize;
+}
+.blog-catagory li a:hover{
+    color: #18ba60
+}
+.blog-catagory span {
+    float: right;
+}
+.Tags-catagory > li {
+    display: inline-block;
+    margin: 4px 2px;
+}
+.Tags-catagory > li > a {
+    border: 1px solid #f0f0f0;
+    display: block;
+    padding: 5px 10px;
+    text-transform: capitalize;
+}
+.Tags-catagory > li > a:hover{
+    background: #18ba60 none repeat scroll 0 0;
+    color: #fff;
+    border: 1px solid #18ba60;
+}
+.sidebr-pro-widget {
+    overflow: hidden;
+}
+.blog-recent-post {
+    height: auto;
+    margin: 0;
+}
+.product-thumb-info-image {
+    float: left;
+    height: 100px;
+    margin-bottom: 5px;
+    width: 90px;
+}
+.product-thumb-info-image.blog-recent-post img {
+    width: 100%;
+}
+.single-popular-post {
+    border-bottom: 2px solid #f0f0f0;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.single-popular-post > a {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.single-popular-post > a:hover{
+    color: #18ba60;
+}
+.single-popular-post:last-child {
+    border-bottom: 0 solid #f0f0f0;
+    margin-bottom: 0;
+}
+.single-popular-post a > i {
+    color: #18ba60;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.single-popular-post > p {
+    color: #555;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.single-popular-post > p > span {
+    color: #18ba60;
+    font-weight: 600;
+}
+.sidebar-view{
+    text-align: left
+}
+
+/*================================================
+30 - BLOG SINGLE PAGE CSS
+==================================================*/ 
+
+.fina-default-news-text.news-grid-text > p {
+    margin: 0 0 10px;
+}
+.fina-default-news-text blockquote:before {
+    border-color: rgba(51, 204, 119, 0.78) transparent;
+    border-style: solid;
+    border-width: 60px 60px 0 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.fina-default-news-text blockquote:after {
+    border-color: rgba(51, 204, 119, 0.78) transparent;
+    border-style: solid;
+    border-width: 0 0 60px 60px;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    right: 0;
+}
+.fina-default-news-text blockquote {
+    background: rgba(206, 255, 228, 0.54) none repeat scroll 0 0;
+    border-left: 0 solid #eee;
+    font-family: "Playfair Display",serif;
+    font-style: italic;
+    padding: 40px;
+    position: relative;
+}
+.fina-default-news-text ul li i {
+    color: #18ba60;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.fina-default-news-text ul li {
+    font-size: 16px;
+    margin-top: 10px;
+}
+.fina-default-news-text ul{
+    margin-top: 25px
+}
+.post-share-box {
+    border-bottom: 1px solid #f3f3f3;
+    border-top: 1px solid #f3f3f3;
+    padding: 15px 0;
+    margin-top: 30px
+}
+.post-share-left > p, .post-share-right > p {
+    color: #000;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 16px
+}
+.post-share-left a {
+    color: #555;
+    font-weight: 500;
+}
+.post-share-right a {
+    color: #bcc4d0;
+    margin-left: 5px;
+}
+.post-share-right {
+    text-align: right;
+}
+.post_fb:hover {
+    color: #4b6ea9;
+}
+.post_twt:hover {
+    color: #65bbf2;
+}
+.post_gl:hover {
+    color: #dd4d41;
+}
+.post_lknd:hover {
+    color: #0075b5;
+}
+.comment-group-title > h2 {
+    color: #303030;
+    display: inline-block;
+    font-family: "Merriweather",serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.fina-comment-list {
+    margin-top: 30px;
+}
+.single-comment-item {
+    margin-top: 30px;
+}
+.single-comment-box {
+    background: #f9f9f9 none repeat scroll 0 0;
+    margin-bottom: 10px;
+    padding: 0 10px 30px;
+    position: relative;
+    -webkit-transition: all 300ms ease 0s;
+    transition: all 300ms ease 0s;
+}
+.main-comment {
+    font-size: 14px;
+    padding: 30px 0 0 100px;
+    position: relative;
+}
+.author-image {
+    border-radius: 50%;
+    left: 0;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 30px;
+}
+.author-image img {
+    border-radius: 50%;
+    display: block;
+    width: 80px;
+}
+.comment-info {
+    margin-bottom: 10px;
+}
+.comment-info h4 {
+    color: #333;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.comment-info > p {
+    color: #212121;
+    font-family: "Montserrat",sans-serif;
+    text-transform: capitalize;
+}
+.reply{
+    background: #18ba60 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 5px 10px;
+    position: absolute;
+    right: -7px;
+    top: 2px;
+}
+.reply:hover{
+    background: #18ba60 none repeat scroll 0 0;
+    color: #fff;
+}
+.single-comment-box.reply-comment {
+    margin-left: 100px;
+}
+.comment-form-template > form {
+    margin-top: 20px;
+}
+.comment-form-template form input[type="text"], .comment-form-template form input[type="email"] {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    float: left;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-top: 0;
+    padding: 10px 15px;
+    width: 45%;
+}
+.comment-form-template form textarea {
+    border: 1px solid #ddd;
+    height: 160px;
+    margin-bottom: 20px;
+    padding: 5px 15px;
+    width: 93%;
+}
+.comment-form-template{
+    margin-top: 30px
+}
+.comment-group-title > p {
+    color: #444;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.comment-form-template button {
+    background: #18ba60 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+.comment-form-template button:hover{
+    background: #2d4358 none repeat scroll 0 0
+}
+
+/*================================================
+31 - NOTFOUND PAGE CSS
+==================================================*/ 
+
+.notfound-right h1 {
+    font-family: "Merriweather",serif;
+    font-size: 150px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.notfound-right > h2 {
+    color: #333;
+    font-family: "PT Sans",sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.notfound-right h2 > span {
+    font-weight: 700;
+}
+.notfound-right > p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/*================================================
+32 - FAQS PAGE CSS
+==================================================*/
+
+.fina-faqs-area {
+    background: #f9f9f9 none repeat scroll 0 0;
+}
+.fina-single-faqs {
+    margin-bottom: 25px;
+}
+.fina-single-faqs:last-child{
+    margin-bottom: 0px;
+}
+.fina-single-faqs i {
+    margin-right: 5px;
+}
+.fina-single-faqs > h3 {
+    color: #333;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.fina-single-faqs > p {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.fina-faqs-right > h3 {
+    color: #303030;
+    display: inline-block;
+    font-family: "Merriweather",serif;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.fina-faqs-right > form {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    margin-top: 30px;
+    padding: 30px 50px;
+}
+.fina-faqs-right > form p {
+    margin-top: 15px;
+}
+.fina-faqs-right > form label {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+.fina-faqs-right > form textarea {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    height: 120px;
+    padding: 5px 10px;
+    width: 100%;
+    color: #333;
+    font-weight: 600
+}
+.fina-faqs-right > form input{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    color: #333;
+    height: 40px;
+    padding: 5px 10px;
+    width: 100%;
+    color: #333;
+    font-weight: 600
+}
+.fina-faqs-right > form button {
+    background: #18ba60 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+.fina-faqs-right > form button:hover{
+    background: #2d4358 none repeat scroll 0 0
+}
+
+/*================================================
+33 - PRICING PAGE CSS
+==================================================*/
+
+.single-pricing-table{
+    box-shadow: 0 0 4px #ddd;
+    text-align: center; 
+    margin-top: 30px;
+    color:#555;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: auto
+}
+.single-pricing-table:hover, .single-pricing-table.active{
+    box-shadow: 3px 0 29px rgba(0, 0, 0, 0.26);
+}
+.single-pricing-table:hover .price-value{
+    background: #18ba60 none repeat scroll 0 0;
+}
+.pricing-heading {
+    background: #f2f2f2 none repeat scroll 0 0;
+    color: #333;
+    font-weight: 700;
+    padding: 12px 10px;
+    text-transform: uppercase;
+}
+.price-value {
+    background: #242c42 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 20px 10px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s
+}
+.single-pricing-table.active .price-value {
+    background: #18ba60 none repeat scroll 0 0;
+}
+.single-pricing-table .pricing-desc ul li:nth-child(2n+2), .pricingContent ul li:nth-child(2n+2){
+    background: #f2f2f2
+}
+.pricing-desc ul{
+    text-align: left
+}
+.pricing-desc ul li{
+    padding: 10px 15px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    font-size: 15px
+}
+.pricing-desc ul li .fa-check {
+    margin-right: 5px;
+    color: #0bb124
+}
+.pricing-desc ul li .fa-times {
+    margin-right: 5px;
+    color: #d12525
+}
+.pricing-desc ul li:hover{
+    padding-left: 20px
+}
+.price-value span {
+    font-size: 30px;
+    color: #fff
+}
+.price-value .month {
+    font-size: 20px;
+    font-weight: 400
+}
+.pricing-desc ul li strong {
+    margin-right: 5px;
+}
+.pricing-order > a {
+    margin-top: 20px;
+}
+.pricing-heading > h3 {
+    color: #000;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/*================================================
+34 - CONTACT PAGE CSS
+==================================================*/
+
+.fina-contact-desc > h3 {
+    color: #000;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.single-contact-left:first-child {
+    margin-top: 0;
+}
+.single-contact-left {
+     background: #fff none repeat scroll 0 0;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    margin-top: 20px;
+    padding: 20px;
+}
+.contact-icon {
+    background: #f9f9f9 none repeat scroll 0 0;
+    color: #18ba60;
+    display: table-cell;
+    float: left;
+    font-size: 30px;
+     height: 75px;
+    line-height: 75px;
+    margin-right: 10px;
+    text-align: center;
+    width: 75px;
+}
+
+.contact-icon, .contact-phone{
+       margin-top: -16px;
+}
+.contact-text > h4 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.contact-text > p {
+    font-size: 15px;
+    line-height: 26px;
+}   
+.fina-contact-form-right > form {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    margin-top: 0;
+    padding: 30px 50px;
+}
+.fina-contact-form-right form p {
+    margin: 10px 0;
+}
+.fina-contact-form-right input {
+    background: #fafafa none repeat scroll 0 0;
+    border: medium none;
+    height: 45px;
+    padding: 5px 10px;
+    width: 100%;
+}
+.fina-contact-form-right textarea {
+    background: #fafafa none repeat scroll 0 0;
+    border: medium none;
+    height: 120px;
+    padding: 5px 10px;
+    width: 100%;
+}
+.fina-contact-form-right button {
+    background: #18ba60 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 15px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+.fina-contact-form-right button:hover{
+    background: #2d4358 none repeat scroll 0 0
+}
+.fina-contact-desc {
+    margin-bottom: 50px;
+}
+#googleMap {
+    height: 370px;
+    width: 100%;
+}

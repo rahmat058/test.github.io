@@ -1,0 +1,545 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+    .header-top-left > p:first-child{
+        display: none
+    }
+    .fina-logo-menu-area::before{
+        display: none
+    }
+    .fina-logo-menu-area::after{
+        display: none
+    }
+    .choose-right > img {
+        position: relative;
+        right: 0;
+        top: 90px;
+        width: 100%;
+    }
+    .fina-post-share-comment > p{
+        margin: 0
+    }
+    .broucher-item a span{
+        display: none
+    }
+    .choose-us-left.section_t_100{
+        padding-bottom: 100px
+    }
+    .single-blog-list-item .fina-post-share-comment{
+        margin-top: 0
+    }
+    .notfound-right{
+        margin-bottom: 30px
+    }
+
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+    .header-top-left{
+        text-align: center
+    }
+    .header-top-right{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .logo{
+        display: block
+    }
+    .logo img {
+        display: block;
+        margin: 15px auto;
+    }
+    .mainmenu ul{
+        text-align: center
+    }
+    .fina-main-slide{
+        height: 470px
+    }
+    .quotes-left{
+        text-align: center
+    }
+    .quotes-right{
+        text-align: center;
+        margin-top: 20px
+    }
+    .choose-right{
+        display: none
+    }
+    .choose-us-left.section_t_100{
+        padding-bottom: 100px
+    }
+    .fina-video-area::before{
+        background-image: none
+    }
+    .youtube-text, .fina-abt-overlay{
+        display: none
+    }
+    .fina-caallback-wrap{
+        width: 100%;
+        float: right
+    }
+    .no-pad-right{
+        padding-right: 15px
+    }
+    .textimonial-text{
+        text-align: center;
+        margin-top: 20px
+    }
+    .testimonial-img > i, .textimonial-text > i{
+        display: none
+    }
+    .breadcromb-right{
+        text-align: left;
+        margin-bottom: 0
+    }
+    .about-section-one-right{
+        margin-top: 30px
+    }
+    .about-section-two-right{
+        margin-top: 30px
+    }
+    .about-section-one-left > img {
+        width: 100%;
+    }
+    .single-service-right{
+        margin-top: 40px
+    }
+    .panel-body-img > img{
+        width: 100%
+    }
+    .panel-body-text{
+        margin-top: 10px
+    }
+    .progress-right{
+        margin-top: 30px
+    }
+    .notfound-right{
+        text-align: center;
+        margin-bottom: 30px
+    }
+    .notfound-left{
+        display: none
+    }
+    .fina-faqs-right{
+        margin-top: 40px
+    }
+    .fina-contact-form-right {
+        margin-top: 50px
+    }
+
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+
+    .header-top-left{
+        text-align: center
+    }
+    .header-top-right{
+        text-align: center
+    }
+    .header-top-left > p{
+        display: block
+    }
+    .fina-responsive-menu{
+        display: block
+    }
+    .mainmenu{
+        display: none
+    }
+    .fina-logo-menu-area::before{
+        display: none
+    }
+    .fina-logo-menu-area::after{
+        display: none
+    }
+    .search-panel{
+        display: none
+    }
+    .slicknav_nav{
+        width: 70%;
+        float: right
+    }
+    .logo img {
+        position: relative;
+        z-index: 99999;
+    }
+    .fina-main-caption h4{
+        font-size: 20px
+    }
+    .fina-main-caption h2{
+        font-size: 30px;
+        margin-bottom: 20px
+    }
+    .fina-main-slide{
+        height: 420px
+    }
+    .fina-main-caption p{
+        display: none
+    }
+    .quotes-left > h2{
+        font-size: 25px
+    }
+    .quotes-left > p{
+        display: none
+    }
+    .quotes-left{
+        text-align: center
+    }
+    .quotes-right{
+        text-align: center;
+        margin-top: 20px
+    }
+    .choose-right{
+        display: none
+    }
+    .choose-us-left.section_t_100{
+        padding-bottom: 100px
+    }
+    .element-item{
+        width: 100%
+    }
+    .fina-video-area::before{
+        background-image: none
+    }
+    .youtube-text, .fina-abt-overlay{
+        display: none
+    }
+    .fina-caallback-wrap{
+        float: none;
+        padding: 0;
+        width: 100%
+    }
+    .no-pad-right{
+        padding-right: 15px
+    }
+    .textimonial-text{
+        margin-top: 15px;
+        text-align: center
+    }
+    .testimonial-img > i, .textimonial-text > i{
+        display: none
+    }
+    .single-footer{
+        margin: 50px 0
+    }
+    .copyright-left{
+        text-align: center
+    }
+    .copyright-right{
+        text-align: center
+    }
+    .breadcromb-right{
+        text-align: left;
+        margin-bottom: 0
+    }
+    .breadcromb-left h2{
+        font-size: 30px
+    }
+    .about-section-one-right > h3{
+        font-size: 25px;
+        margin-bottom: 10px
+    }
+    .about-section-one-right{
+        margin-top: 20px
+    }
+    .about-section-two-right{
+        margin-top: 50px
+    }
+    .fina-history-page.section_100{
+        padding-top: 70px;
+        padding-bottom: 100px
+    }
+    .history-container::before{
+        display: none
+    }
+    .history-container{
+        margin-top: 0
+    }
+    .border-bottom{
+        display: none
+    }
+    .single-history{
+        text-align: left
+    }
+    .single-service-right{
+        margin-top: 50px
+    }
+    #service_pro > li{
+        float: none
+    }
+    .panel-body-text{
+        margin-top: 20px
+    }
+    .progress-right{
+        margin-top: 30px
+    }
+    .single-blog-list-item > .row > .col-md-5{
+        padding-right: 15px
+    }
+    .single-blog-list-item .fina-post-share-comment{
+        text-align: center
+    }
+    .fina-post-share-comment > a{
+        display: inline-block;
+        float: none;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    .sidebar-view{
+        text-align: center
+    }
+    .post-share-right{
+        text-align: center;
+        margin-top: 10px
+    }
+    .post-share-left{
+        text-align: center
+    }
+    .single-comment-box.reply-comment{
+        margin-left: 15px
+    }
+    .comment-form-template form input[type="text"], .comment-form-template form input[type="email"]{
+        width: 100%
+    }
+    .comment-form-template form textarea{
+        width: 100%
+    }
+    .notfound-right{
+        text-align: center;
+        margin-bottom: 30px
+    }
+    .notfound-right h1{
+        font-size: 110px
+    }
+    .notfound-right > h2{
+        font-size: 20px;
+        line-height: 30px
+    }
+    .notfound-left{
+        display: none
+    }
+    .fina-faqs-right{
+        margin-top: 50px
+    }
+    .fina-faqs-right > h3{
+        font-size: 23px
+    }
+    .fina-contact-form-right {
+        margin-top: 50px;
+    }
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+
+    .header-top-left{
+        text-align: center
+    }
+    .header-top-right{
+        text-align: center
+    }
+    .header-top-left > p{
+        display: block
+    }
+    .fina-responsive-menu{
+        display: block
+    }
+    .mainmenu{
+        display: none
+    }
+    .fina-logo-menu-area::before{
+        display: none
+    }
+    .fina-logo-menu-area::after{
+        display: none
+    }
+    .search-panel{
+        display: none
+    }
+    .slicknav_nav{
+        width: 70%;
+        float: right
+    }
+    .logo img {
+        position: relative;
+        z-index: 99999;
+    }
+    .fina-main-caption h4{
+        font-size: 20px
+    }
+    .fina-main-caption h2{
+        font-size: 30px;
+        margin-bottom: 20px
+    }
+    .fina-main-slide{
+        height: 420px
+    }
+    .fina-main-caption p{
+        display: none
+    }
+    .quotes-left > h2{
+        font-size: 25px
+    }
+    .quotes-left > p{
+        display: none
+    }
+    .quotes-left{
+        text-align: center
+    }
+    .quotes-right{
+        text-align: center;
+        margin-top: 20px
+    }
+    .choose-right{
+        display: none
+    }
+    .choose-us-left.section_t_100{
+        padding-bottom: 100px
+    }
+    .element-item{
+        width: 100%
+    }
+    .fina-video-area::before{
+        background-image: none
+    }
+    .youtube-text, .fina-abt-overlay{
+        display: none
+    }
+    .fina-caallback-wrap{
+        float: none;
+        padding: 0;
+        width: 100%
+    }
+    .no-pad-right{
+        padding-right: 15px
+    }
+    .textimonial-text{
+        margin-top: 15px;
+        text-align: center
+    }
+    .testimonial-img > i, .textimonial-text > i{
+        display: none
+    }
+    .single-footer{
+        margin: 50px 0
+    }
+    .copyright-left{
+        text-align: center
+    }
+    .copyright-right{
+        text-align: center
+    }
+    .breadcromb-right{
+        text-align: left;
+        margin-bottom: 0
+    }
+    .breadcromb-left h2{
+        font-size: 30px
+    }
+    .about-section-one-right > h3{
+        font-size: 25px;
+        margin-bottom: 10px
+    }
+    .about-section-one-right{
+        margin-top: 20px
+    }
+    .about-section-two-right{
+        margin-top: 50px
+    }
+    .fina-history-page.section_100{
+        padding-top: 70px;
+        padding-bottom: 100px
+    }
+    .history-container::before{
+        display: none
+    }
+    .history-container{
+        margin-top: 0
+    }
+    .border-bottom{
+        display: none
+    }
+    .single-history{
+        text-align: left
+    }
+    .single-service-right{
+        margin-top: 50px
+    }
+    #service_pro > li{
+        float: none
+    }
+    .panel-body-text{
+        margin-top: 20px
+    }
+    .progress-right{
+        margin-top: 30px
+    }
+    .single-blog-list-item > .row > .col-md-5{
+        padding-right: 15px
+    }
+    .single-blog-list-item .fina-post-share-comment{
+        text-align: left
+    }
+    .fina-post-share-comment > a{
+        float: right;
+        margin-right: 15px;
+        margin-top: 0px;
+    }
+    .sidebar-view{
+        text-align: left
+    }
+    .post-share-right{
+        text-align: center;
+        margin-top: 10px
+    }
+    .post-share-left{
+        text-align: center
+    }
+    .single-comment-box.reply-comment{
+        margin-left: 70px
+    }
+    .comment-form-template form input[type="text"], .comment-form-template form input[type="email"]{
+        width: 100%
+    }
+    .comment-form-template form textarea{
+        width: 100%
+    }
+    .notfound-right{
+        text-align: center;
+        margin-bottom: 30px
+    }
+    .notfound-right h1{
+        font-size: 110px
+    }
+    .notfound-right > h2{
+        font-size: 20px;
+        line-height: 30px
+    }
+    .notfound-left{
+        display: none
+    }
+    .fina-faqs-right{
+        margin-top: 50px
+    }
+    .fina-faqs-right > h3{
+        font-size: 23px
+    }
+    .fina-contact-form-right {
+        margin-top: 50px;
+    }
+    .choose-list-txt{
+        margin-bottom: 25px
+    }
+    .about-section-one-left > img{
+        width: 100%
+    }
+    .panel-body-img > img {
+        width: 100%;
+    }
+    
+}
